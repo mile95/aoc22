@@ -3,8 +3,8 @@
 
 ## Get started
 
-  cp template.hs dayx.hs
+    cp template.hs dayx.hs
 
 ## Running
 
-  runhaskell dayx.hs
+    runhaskell dayx.hs
