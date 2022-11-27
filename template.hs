@@ -1,7 +1,9 @@
-import System.IO
-
+myHead :: [String] -> String
+myHead ss = head ss
 
 main = do
         contents <- readFile "input.txt"
-        let d = lines contents
-        print d 
+        let rows = lines contents
+        let first = myHead(rows)
+        print(first)
+
