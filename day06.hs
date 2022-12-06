@@ -1,7 +1,7 @@
 findMarker :: String -> Int -> Int -> Int -> Int 
-findMarker s l start end = 
-  if allDifferent(subList) && length subList == l then end 
-  else findMarker s l (start+1) (end+1)
+findMarker s l start end
+  | (allDifferent(subList) && length subList == l) = end
+  | otherwise                                      = findMarker s l (start + 1) (end + 1)
     where subList = drop start . take end $ s
 
 allDifferent :: String -> Bool
