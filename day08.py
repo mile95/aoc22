@@ -18,6 +18,8 @@ for x in range(0, len(input)):
             elif all(a < val for a in lc[:x]) or all(a < val for a in lc[x + 1 :]):
                 c += 1
 
+print(c)
+
 
 def find_trees(val, items):
     c = 0
