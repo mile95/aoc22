@@ -8,3 +8,5 @@
 ## Running
 
     runhaskell dayx.hs
+    or
+    python3 dayx.py
